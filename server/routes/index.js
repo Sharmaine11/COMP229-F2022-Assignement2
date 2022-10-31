@@ -12,8 +12,8 @@ router.get("/home", indexController.displayHomepage);
 /* GET About Us page. */
 router.get("/about", indexController.displayaboutpage);
 
-/* GET Products page. */
-router.get("/products", indexController.displayproductpage);
+/* GET Projects page. */
+router.get("/projects", indexController.displayprojectpage);
 
 /* GET Services page. */
 router.get("/services", indexController.displayservicespage);

@@ -14,3 +14,9 @@
   }
   window.addEventListener("load", Start);
 })();
+
+(function aboutmelink() {
+  document.getElementById("myButton").onclick = function () {
+      location.href = "/about";
+  };
+})();

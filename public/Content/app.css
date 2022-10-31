@@ -1,1 +1,232 @@
 /* custom css goes here */
+/*File name: Comp229-f2022-assign1
+Student Name: Sharmaine Sanchez
+Student ID: 301206792
+Date: October 31, 2022
+/* custom css goes here */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+  }
+  
+  .box {
+    padding: .5rem 5rem 5rem 5rem ;
+    margin: 3rem;
+    border-radius: .5rem;
+  }
+
+
+  body{
+    background-color: #ACE1AF;
+
+}
+
+  .nav-link {
+    color: dimgray;
+  }
+  
+  .nav-item>a:hover {
+    color: wheat;
+  }
+  
+  /*code to change background color*/
+  .navbar-nav>.active>a {
+    
+    color: white;
+  }
+  
+  .statement {
+    background-color: #dae5ec;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .3rem;
+    box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+    transition: all .3s ease-in-out;
+  }
+
+  .statement2 {
+    background-color: #dae5ec;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .3rem;
+  }
+
+  .statement3 {
+    background-color: #dae5ec;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .3rem;
+  }
+
+  .statement4 {
+    background-color: #dae5ec;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .3rem;
+    height: 700px;
+    width: 800px;
+    box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+    transition: all .3s ease-in-out;  
+    
+  }
+
+  .statement5 {
+    background-color: #dae5ec;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .3rem;
+    height: 600px;
+    width: 800px;
+  }
+
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+
+  .button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+   /* Float four columns side by side */
+   .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    margin-left: 8px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {margin: 0 -5px;}
+
+   /* Clear floats after the columns */
+   .row:after {
+   content: "";
+   display: table;
+   clear: both;
+   }
+
+   /* Responsive columns */
+   @media screen and (max-width: 600px) {
+  .column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+   }
+   }
+
+  /* Style the counter cards */
+  .card {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  }
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+img {
+  max-width: 100%
+}
+.image1 {
+  flex-basis: 100%
+}
+.text1 {
+  font-size: 20px;
+  padding-left: 20px;
+}
+

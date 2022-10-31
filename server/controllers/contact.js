@@ -12,7 +12,7 @@ module.exports.displayContactList = (req, res, next) => {
     } else {
       //console.log(contactList);
 
-      res.render("contact/list", { title: "Contacts", ContactList: contactList,
+      res.render("contact/list", { title: "Contact List", ContactList: contactList,
       displayName: req.user ? req.user.displayName : "",});
       //render contact.ejs and pass title and Contactlist variable we are passing contactList object to ContactList property
     }

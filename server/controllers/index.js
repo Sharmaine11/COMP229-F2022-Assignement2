@@ -12,19 +12,19 @@ module.exports.displayHomepage = (req, res, next) => {
 };
 
 module.exports.displayaboutpage = (req, res, next) => {
-  res.render("index", { title: "About", displayName: req.user ? req.user.displayName : '' });
+  res.render("about", { title: "About", displayName: req.user ? req.user.displayName : '' });
 };
 
-module.exports.displayproductpage = (req, res, next) => {
-  res.render("index", { title: "Products", displayName: req.user ? req.user.displayName : '' });
+module.exports.displayprojectpage = (req, res, next) => {
+  res.render("projects", { title: "Projects", displayName: req.user ? req.user.displayName : '' });
 };
 
 module.exports.displayservicespage = (req, res, next) => {
-  res.render("index", { title: "Services", displayName: req.user ? req.user.displayName : '' });
+  res.render("services", { title: "Services", displayName: req.user ? req.user.displayName : '' });
 };
 
 module.exports.displayContactpage = (req, res, next) => {
-  res.render("index", { title: "Contact", displayName: req.user ? req.user.displayName : '' });
+  res.render("contact", { title: "Contact", displayName: req.user ? req.user.displayName : '' });
 };
 
 module.exports.displayLoginPage = (req, res, next) => {
